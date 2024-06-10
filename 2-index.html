@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Links</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #343a40;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Image Links</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to the Image Links webpage. Explore different topics through images.</p>
+            <a href="https://www.technology-example.com">
+                <img src="https://via.placeholder.com/600x400?text=Technology" alt="Technology">
+            </a>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <a href="https://www.nature-example1.com">
+                    <img src="https://via.placeholder.com/300x200?text=Nature+1" alt="Nature 1">
+                </a>
+                <a href="https://www.nature-example2.com">
+                    <img src="https://via.placeholder.com/300x200?text=Nature+2" alt="Nature 2">
+                </a>
+                <a href="https://www.nature-example3.com">
+                    <img src="https://via.placeholder.com/300x200?text=Nature+3" alt="Nature 3">
+                </a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li>
+                    <a href="https://www.epicurious.com/">Pizza</a>
+                </li>
+                <li>
+                    <a href="https://www.epicurious.com/">Burger</a>
+                </li>
+                <li>
+                    <a href="https://www.epicurious.com/">Sushi</a>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; 2024 Image Links</p>
+        </footer>
+    </body>
+</html>
